@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+header{
+    background:white;
+}
+
+.header-wrap{
+    height: 7rem;
+    margin: 0 auto;
+    width: 120rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.main {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 7rem);
+    position: relative;
+    background:rgb(240, 240, 240);
+  }
+
+  .name{
+      color:rgb(30, 30, 30);
+    position: absolute;
+    left:10rem;
+    bottom:8rem;
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+
+  
